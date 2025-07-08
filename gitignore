@@ -1,0 +1,47 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.cache
+*.dbmdl
+*.sln
+
+# Build
+bin/
+obj/
+out/
+
+# SQLite
+*.db
+*.db-shm
+*.db-wal
+
+# Test Results
+TestResults/
+*.coverage
+*.coveragexml
+
+# Logs
+*.log
+
+# Docker
+**/Dockerfile
+docker-compose.override.yml
+
+# Secrets
+*.env
+
+# Rider / VSCode
+.idea/
+.vscode/
+
+# Node (caso tenha front-end)
+node_modules/
+dist/
+
+# EF Core (opcional)
+# Migrations/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
